@@ -1,0 +1,29 @@
+main
+{
+  background-color: hsl(120,100%,97%);
+  border: 2px solid hsl(120,100%,40%);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    align:center;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr{
+    background-color: #b3b3cc
+    
+}
+
+th {
+    background-color: #ff4d4d;
+    color: white;
+}
+h1{
+    color:red;
+    text-align:center;
+}

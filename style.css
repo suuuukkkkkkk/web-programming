@@ -1,0 +1,151 @@
+/* Make HTML and body content viewable, layout to fill window */
+html 
+{
+  height: 100%;
+  margin:0px;
+  padding:0px;
+  background-position: center;
+  background-image:url("../../source/checker.gif");
+  background-repeat:repeat;
+  
+}
+body
+{
+  padding-bottom:0px;
+  padding-top: 0px;
+  padding-right: 50px;
+  padding-left: 50px; 
+  margin:0px auto;
+  box-shadow: 1px 1px 3px 2px #333; /*box shadow*/
+  box-sizing: border-box;
+  background-position: center;
+  background-image:url("../../source/starburst.gif");
+  background-repeat:repeat;
+  min-width: 600px;
+  max-width: 1200px;
+}
+
+/* Give all semantic body elements uniform layout style */
+
+
+main,
+article,
+aside,
+section
+{
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}  
+
+/* Give each semantic body element a different color */
+header
+{
+  background-color: hsl(0,100%,97%);
+  border: 2px solid hsl(0,100%,60%);
+  font-family: 'Fontdiner Swanky', cursive;
+}
+h1{
+  color:red;
+  text-align:center;
+}
+nav
+{
+  border: 2px solid hsl(210,100%,60%);
+  font-family: 'Graduate', cursive;
+}
+
+main
+{
+  background-color: hsl(120,100%,97%);
+  border: 2px solid hsl(120,100%,40%);
+  font-family: 'Fontdiner Swanky', cursive; /*headings*/
+}
+
+footer
+{
+  background-color: hsl(300,100%,97%);
+  border: 2px solid hsl(300,100%,80%);
+  font-family: 'Fontdiner Swanky', cursive;/*headings*/
+}
+aside
+{
+  background-color: hsl(180,100%,97%);
+  border: 2px solid hsl(180,100%,40%);
+  text-align:center;
+  font-family: 'Fontdiner Swanky', cursive;/*headings*/
+}
+
+section
+{
+  background-color: hsl(30,100%,97%);
+  border: 2px solid hsl(30,100%,60%);
+  font-family: 'Fontdiner Swanky', cursive;/*headings*/
+}
+article
+{
+  background-color: hsl(270,100%,97%);
+  border: 2px solid hsl(270,100%,60%);
+  font-family: 'Oregano', cursive;     /*main reading text*/
+    
+}
+p:last-child{
+  font-size:80%;
+  text-align:center;
+  color:black;
+  
+}
+    ul {                                  /*set navigation bar to same line*/
+    list-style-type: none;
+    padding: 0px; 
+    margin: 0px;
+    overflow: hidden;
+    text-align:center;
+    }
+    
+    li 
+    {
+    display:inline-block;
+    }
+
+    li a {
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    }
+    li a:link ,a:visited
+    {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);   /*white transparency*/  
+    }
+    li a:hover ,a:active
+    {
+    color: white;
+    background-color:#066;
+    }
+    
+
+.btt  /*back to top*/
+{
+  opacity: 0.5;
+  padding:10px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  box-sizing: border-box;
+  color: yellow;
+  background-color: black;
+}
+.btt:hover{
+  opacity: 1.0;
+}
+#services div{
+  display:inline-block;
+ 
+}
+.bb
+{
+  border: 5px solid rgb(200,200,200);
+  height: 300px;
+  
+}
